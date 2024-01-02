@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'lexend',sans-serif;
+
+}
+:root{
+    --bg-dark-color:#1a1d20;
+    --bg-dark-primary:#1c1c1c;
+    --bs-main-color:#ffc;
+    --bs-primary-color:#c6c6c6;
+    --supporting-color:#c858c0;
+    --secondary-color:#29a9fd;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'montserrat' , sans-serif;
+    color: var(--bg-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+p{
+    margin: 0%;
+    font-family:'montserrat' , sans-serif ;
+    text-rendering: optimizeLegibility;
+    font-size: 1vw;
+    font-weight: 400;
+
+}
+.hero-video-section{
+    width: 30rem;
+    border-radius: 2rem;
+}
+.bg-main{
+    height: 100vh;
+    position: relative;
+}
+.bg-color{
+    background-color: #1c1c1c;
+
+}
+.para-width{
+    color: #c6c6c6;
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.nav-link{
+    color: var(--bs-primary-color) !important;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
